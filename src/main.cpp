@@ -161,7 +161,7 @@ static void render(Scene *scene, const std::string &filename) {
 
 int main(int argc, char **argv) {
     if (argc < 2) {
-        cerr << "Syntax: " << argv[0] << " <scene.xml>" << endl;
+        cerr << "Syntax: " << argv[0] << " <scene.xml> [--no-gui] [--threads N]" <<  endl;
         return -1;
     }
 
